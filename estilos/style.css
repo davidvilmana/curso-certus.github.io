@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+
+html{
+    background-color: rgb(250, 253, 253);
+}
+
+.menu{
+    background-color: coral;
+    text-align: center;
+    margin: 0px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding: 10px;
+    color: brown;
+    text-decoration: none;
+    display: block;    
+}
+
+.menu a:hover{
+    background-color: burlywood;
+    font-size:large;
+}
+
+.central{
+    color: blue;
+    text-align: center;
+    overflow: hidden; /*Quitar el espacio sup. */
+    padding: 40px;
+}
+
+.contorno{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff;
+    /* somb-x | somb-y | desenf-radio | color */
+    text-shadow: -3px 0 red, 0 3px rgb(230, 11, 11), 3px 0 rgb(233, 22, 22), 0 -3px rgb(233, 21, 21);
+}
+
+.neon{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    COLOR: #1278BF; 
+    text-shadow: 0px 0px 10px #abee0e;
+}
+
+.l3d{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+img{
+    width: 200px;
+    height: auto;
+    display: block; /*Se convierta en bloque*/
+    margin: auto; /*Centrado*/
+    border-radius: 10px;
+    /* somb-x | somb-y | desenf-radio | color */
+    /* box-shadow: 5px 5px 0px peru; */
+    
+    /*Borde a mi fotografia*/
+    /* border: 1px solid yellow;
+    padding: 10px; */
+}
+
+table{
+    width: 100%;
+    /* border-spacing: 5px; */
+    border-collapse:collapse;
+}
+
+tr, td{
+    width: 25%;
+    text-align: center;
+    /* solid, dashed, dotted */
+    border: 1px solid red;
+    vertical-align: top;
+    
+}
+
+caption{
+    background-color: rgb(224, 240, 11);
+    border: 1px solid red;
+    padding: 5px;
+}
+.bolivia{
+    background: linear-gradient(green,40%,yellow,red);
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+}
+
+footer img{
+    width: 20px;
+}
